@@ -106,13 +106,13 @@ analytics:
 author:
   name             : "목진왕(JinwangMok)"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "문제는 잠시, 기록은 오래:)\n 신뢰가는 AI 연구원을 추구합니다."
+  bio              : "문제는 잠시, 기록은 오래:)"
   location         : "🇰🇷South Korea"
   email            : "wlsdhkd8040@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:wlsdhkd8040@gmail.com"
+      # url: "mailto:wlsdhkd8040@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
