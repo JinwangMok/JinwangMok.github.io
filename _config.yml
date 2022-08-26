@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "ko-KR"
 title                    : "난중일기"
 title_separator          : "|"
-subtitle                 : ""
+subtitle                 : "문제는 잠시, 기록은 오래:)"
 name                     : "JinwangMok"
 description              : "신뢰가는 AI 연구원을 추구하는 목진왕의 학습 기록 블로그입니다."
 url                      : "https://jinwangmok.com"
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "목진왕(JinwangMok)"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "문제는 잠시, 기록은 오래:)"
+  name             : "목진왕"
+  avatar           : "/assets/images/sample_avt.png"
+  bio              : "기계가 온전히 이해하는 그날까지."
   location         : "🇰🇷South Korea"
   email            : 
   links:
