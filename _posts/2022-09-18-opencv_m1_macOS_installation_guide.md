@@ -196,7 +196,7 @@ search: false
 
 8. Code Runner Extension 설치
 
-   ![opencv_m1_macOS_installation_guide-1](../assets/images/opencv_m1_macOS_installation_guide-1.png)
+   ![opencv_m1_macOS_installation_guide-1](/assets/images/opencv_m1_macOS_installation_guide-1.png)
 
    `cmd+shift+X` 로 익스텐션 사이드바 진입 후 검색창에 `Code Runner` (by. Jun Han) 검색 후 설치
 
@@ -204,7 +204,7 @@ search: false
 
    `cmd + ,` 또는 우측 하단 ⚙️클릭 후 Settings 선택 => Search settings 칸에 **Code-runner: Executor Map** 검색
 
-   ![code runner executor map](../assets/images/opencv_m1_macOS_installation_guide-2.png)
+   ![code runner executor map](/assets/images/opencv_m1_macOS_installation_guide-2.png)
 
    Edit in settings.json을 클릭하면 아래와 같은 settings.json파일이 열림
 
@@ -230,7 +230,7 @@ search: false
 
     `cmd+k cmd+s` 또는 우측 하단 ⚙️클릭 후 `Keyborad Shortcuts` 선택 => 검색창에 `code-runner.run` 검색 후 Command가 Run Code인 키 바인딩을 원하는 단축키로 설정. 필자의 경우 `opt+R` 로 설정함.
 
-    ![code runner shortcut](../assets/images/opencv_m1_macOS_installation_guide-3.png)
+    ![code runner shortcut](/assets/images/opencv_m1_macOS_installation_guide-3.png)
 
 ---
 
