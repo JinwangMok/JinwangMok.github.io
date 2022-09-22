@@ -236,6 +236,48 @@ search: false
 
 10번까지 따라오셨다면, 7번의 tasks.json파일이 없더라도 단축키로 컴파일부터 실행까지 해볼 수 있으니 편리합니다:)
 
+아래 11번부터는 VS Code의 코드 스니펫을 추가하여 반복적으로 입력하는 include등의 코드를 자동화하기 위한 파트입니다.
+
+11. cpp.json 열기
+
+    ![opencv_m1_macOS_installation_guide-4](/assets/images/opencv_m1_macOS_installation_guide-4.png)
+
+    우측 하단 ⚙️클릭 후 `Configure User Snippets` 선택
+
+    ![opencv_m1_macOS_installation_guide-5](/assets/images/opencv_m1_macOS_installation_guide-5.png)
+
+    `cpp.json` 선택하면 cpp.json 파일이 자동으로 열림
+
+    `"prefix"` 는 단축어로 사용할 단어를 말하고, `"body"` 는 삽입될 코드들의 문자열을 배열로 받음.
+
+    이 때 $0은 마지막 커서의 위치가 되므로 원하는 곳에 입력하면 좋음
+
+    아래는 필자의 스니펫
+
+    ```json
+    {
+    	"OpenCV setup": {
+    		"prefix": "include cv",
+    		"body": [
+    			"#include <opencv2/opencv.hpp>",
+    			"#include <iostream>",
+    			"\n",
+    			"using namespace std;",
+    			"using namespace cv;",
+    			"\n",
+    			"int main(){\n\t$0\n}"
+    		],
+    		"description": "Log output to console"
+    	}
+    }
+    ```
+
+    이 경우 `include cv`를 입력하면 아래와 같은 내용을 자동으로 입력해줌.
+
+    ![opencv_m1_macOS_installation_guide-6](/assets/images/opencv_m1_macOS_installation_guide-6.png)
+
+---
+
 이렇게 M1 MacOS 환경에서 `opt+R` 단축키 하나로 OpenCV4 C++ 파일을 컴파일하고 실행하는 설정을 마쳤습니다.
 
 즐거운 개발되세요!
