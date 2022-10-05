@@ -196,7 +196,7 @@ search: false
 
 8. Code Runner Extension 설치
 
-   ![opencv_m1_macOS_installation_guide-1](/assets/images/opencv_m1_macOS_installation_guide-1.png)
+   ![image](https://user-images.githubusercontent.com/80076897/194049508-c01b0a9a-526c-4b5c-8783-a23c5e0ebb97.png)
 
    `cmd+shift+X` 로 익스텐션 사이드바 진입 후 검색창에 `Code Runner` (by. Jun Han) 검색 후 설치
 
@@ -204,7 +204,7 @@ search: false
 
    `cmd + ,` 또는 우측 하단 ⚙️클릭 후 Settings 선택 => Search settings 칸에 **Code-runner: Executor Map** 검색
 
-   ![code runner executor map](/assets/images/opencv_m1_macOS_installation_guide-2.png)
+   ![image](https://user-images.githubusercontent.com/80076897/194050654-b804ad98-ffbf-48bb-af22-7e49ac84f889.png)
 
    Edit in settings.json을 클릭하면 아래와 같은 settings.json파일이 열림
 
@@ -230,7 +230,7 @@ search: false
 
     `cmd+k cmd+s` 또는 우측 하단 ⚙️클릭 후 `Keyborad Shortcuts` 선택 => 검색창에 `code-runner.run` 검색 후 Command가 Run Code인 키 바인딩을 원하는 단축키로 설정. 필자의 경우 `opt+R` 로 설정함.
 
-    ![code runner shortcut](/assets/images/opencv_m1_macOS_installation_guide-3.png)
+    ![image](https://user-images.githubusercontent.com/80076897/194050756-80af0bf2-fea4-47b1-8002-53d1c947fc76.png)
 
 ---
 
@@ -240,11 +240,11 @@ search: false
 
 11. cpp.json 열기
 
-    ![opencv_m1_macOS_installation_guide-4](/assets/images/opencv_m1_macOS_installation_guide-4.png)
+    <img width="357" alt="image" src="https://user-images.githubusercontent.com/80076897/194050808-2a3ca17d-376e-4648-82d4-dafcd2abe728.png">
 
     우측 하단 ⚙️클릭 후 `Configure User Snippets` 선택
 
-    ![opencv_m1_macOS_installation_guide-5](/assets/images/opencv_m1_macOS_installation_guide-5.png)
+    <img width="844" alt="image" src="https://user-images.githubusercontent.com/80076897/194050855-36a644c1-c469-43dd-a80e-d874fedfb5f5.png">
 
     `cpp.json` 선택하면 cpp.json 파일이 자동으로 열림
 
@@ -274,7 +274,7 @@ search: false
 
     이 경우 `include cv`를 입력하면 아래와 같은 내용을 자동으로 입력해줌.
 
-    ![opencv_m1_macOS_installation_guide-6](/assets/images/opencv_m1_macOS_installation_guide-6.png)
+    ![opencv_m1_macOS_installation_guide-6](../assets/images/opencv_m1_macOS_installation_guide-6.png)
 
 ---
 
