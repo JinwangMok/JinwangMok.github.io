@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "github jekyll 블로그 이해하기"
-categories: test
+categories: etc
 tag: [blog, python, jekyll]
 toc: true
 author_profile: false

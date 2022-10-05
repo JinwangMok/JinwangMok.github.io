@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "M1 맥북에서 Visual Studio Code로 OpenCV C++ 실행 환경 설정(단축키 하나로 컴파일부터 실행까지)"
-categories: dev
+categories: cpp
 tag: [OpenCV 세팅, 맥북 opencv c++, c++ opencv]
 toc: true
 author_profile: false
