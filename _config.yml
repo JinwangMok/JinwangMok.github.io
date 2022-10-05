@@ -25,7 +25,7 @@ url                      : "https://jinwangmok.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : JinwangMok/JinwangMok.github.io# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/background.jpeg"
+logo                     : # 나중에 만들면 넣자..
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -105,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "목진왕"
-  avatar           : "/assets/images/profile.JPG"
-  bio              : "기계가 온전히 이해하는 그날까지."
+  avatar           : "/assets/images/profile_small.jpg"
+  bio              : "사람을 돕는 인공지능을 연구합니다."
   location         : "South Korea🇰🇷"
   email            : 
   links:
