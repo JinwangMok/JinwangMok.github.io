@@ -296,5 +296,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      mathjax: true
+      sidebar_main: true
 
 date_format: "%Y년 %m월 %d일"
