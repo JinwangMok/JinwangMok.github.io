@@ -580,3 +580,42 @@ body {
 .utterances {
   max-width: 100% !important;
 }
+
+// .page__taxonomy-item-category{
+//   color:#000;
+//   background-color: gray;
+//   padding: 0.1rem;
+//   text-decoration-line: none;
+// }
+
+.page__taxonomy-item-tag{
+  display: inline-block;
+  color: white;
+  text-decoration-line: none;
+  background-color: black;
+
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+
+  border-radius: 0.2rem;
+  margin-right: 0.2rem;
+}
+.page__taxonomy-item-tag::before {
+  content: "🏷 ";
+}
+.page__taxonomy-item-tag:hover{
+  color: gray;
+}
+.categories-element-date{
+  color: gray;
+}
+
+.list__item{
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+.list__item::before{
+  content: "📄";
+}
