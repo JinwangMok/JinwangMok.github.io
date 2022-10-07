@@ -27,7 +27,7 @@ search: false
 
 ### 이름 바꾸기Renaming
 
-```
+```python
 import pandas as pd
 pd.set_option('max_rows', 5)
 reviews = pd.read_csv('../input/wine-reviews/winemag-data-130k-v2.csv', index_col=0)
@@ -37,7 +37,7 @@ reviews = pd.read_csv('../input/wine-reviews/winemag-data-130k-v2.csv', index_co
 
 처음으로 소개할 함수는 rename()입니다. 이것은 인덱스 이름 또는(혹은 그리고) 열 이름을 바꿀 수 있게 해줍니다. 예를 들어, 데이터셋의  points 열을 score로 바꿀 때 다음과 같이 할 수 있습니다.
 
-```
+```python
 reviews.rename(columns={'points': 'score'})
 ```
 
@@ -45,7 +45,7 @@ reviews.rename(columns={'points': 'score'})
 
 rename()은 인덱스 또는 열 키워드 매개변수를 각각 지정하여 인덱스 또는 열의 값을 변경할 수 있습니다. rename()은 다양한 입력  형식을 지원하지만, 보통 파이썬 딕셔너리 형식이 가장 편리합니다. 아래는 인덱스의 몇가지 요소를 rename하는 예시입니다.
 
-```
+```python
 reviews.rename(index={0: 'firstEntry', 1: 'secondEntry'})
 ```
 
@@ -57,7 +57,7 @@ reviews.rename(index={0: 'firstEntry', 1: 'secondEntry'})
 
 행 인덱스와 열 인덱스는 둘 다 각각 그들의 name 속성을 가질 수 있습니다. 무료로 쓸 수 있는 rename_axis()  메소드는 이들의 이름을 바꿀 수 있게 해줄 것입니다. 아래는 그 예시입니다. (행/열 인덱스에 이름 매기기 :  rename_axis())
 
-```
+```python
 reviews.rename_axis('wines', axis='rows').rename_axis('fields', axis='columns')
 ```
 
@@ -73,7 +73,7 @@ reviews.rename_axis('wines', axis='rows').rename_axis('fields', axis='columns')
 
 이 메소드는 서로 다른 데이터프레임 또는 시리즈 객체이지만, 동일한 필드(열)를 가지고 있는 데이터의 경우 유용합니다. 하나의 예로, 나라를 기준으로 데이터를 구분한 [유튜브 영상 데이터셋](https://www.kaggle.com/datasnaek/youtube-new)을 사용해보겠습니다. (예제에서는 Canada와 UK입니다.) 만약 동시에 여러 국가를 연구하고 싶다면, concat() 메소드를 통해 아래와 같이 이 데이터들을 결합시킬 수 있습니다.
 
-```
+```python
 canadian_youtube = pd.read_csv('../input/youtube-new/CAvideos.csv')
 british_youtube = pd.read_csv('../input/youtube-new/CBvideos.csv')
 
@@ -84,7 +84,7 @@ pd.concat([canadian_youtube, british_youtube])
 
 결합 메소드를 복잡성에 따라 분류했을 때, 가운데에 있던 메소드는 join()입니다. join()은 공통 인덱스를 가진 서로 다른  데이터프레임 객체를 결합하도록 해줍니다. 예를 들어, 캐나다와 UK 두 곳에서 같은 날의 트렌딩 비디오를 선택할 때 다음과 같이 할 수 있습니다.
 
-```
+```python
 left = canadian_youtube.set_index(['title', 'trending_data'])
 right = british_youtube.set_index(['title', 'trending_data'])
 

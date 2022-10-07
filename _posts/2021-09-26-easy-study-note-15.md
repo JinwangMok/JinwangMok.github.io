@@ -42,7 +42,7 @@ search: false
 - train_y
 - val_y
 
-```
+```python
 import pandas as pd
 
 # 데이터 가져오기
@@ -68,7 +68,7 @@ train_X, val_X, train_y, val_y = train_test_split(X, y, random_state = 0)
 
 우리는 scikit-learn을 통해서 의사 결정 트리를 만든 것과 비슷하게 랜덤 포레스트 모델을 만들 것입니다. 이번에는 DecisionTreeRegressor 대신에 RandomForestRegressor를 사용할 것입니다.
 
-```
+```python
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
 

@@ -108,7 +108,7 @@ y 는 최종적으로 뉴런이 출력하는 값입니다. 출력 값을 얻기 
 
 여러분은 아래의 코드와 같이 'sugar', 'fiber', 'protein' 세 개의 입력을 받고, 'calories'라는 하나의 출력을 만들도록 모델을 정의할 수 있습니다.
 
-```
+```python
 from tensorflow import keras
 from tensorflow.keras import layers
 

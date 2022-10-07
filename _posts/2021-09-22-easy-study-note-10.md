@@ -21,7 +21,7 @@ search: false
 
 어떤 기계학습 프로젝트든지 당신 스스로가 데이터와 친해지는 것이 첫걸음입니다. 당신은 이를 위해 Pandas 라이브러리를 사용할  것입니다. Pandas는 데이터 사이언티스트들이 데이터를 찾고 능수능란하게 다루기 위해 사용하는 주요 툴입니다. 대부분 코드에서  Pandas를 줄여서 pd라고 표현합니다. 이것을 아래와 같이 명령할 수 있습니다.
 
-```
+```python
 import pandas as pd
 ```
 
@@ -43,7 +43,7 @@ Pandas는 당신이 이 데이터 타입으로 하고 싶은 왠만한 것들에
 
 아래의 코드로 데이터를 불러오고 찾아보겠습니다.
 
-```
+```python
 # 쉬운 접근을 위해 파일 경로를 변수에 저장
 melbourne_file_path = '../input/melbourne-housing-snapshot/melb_data.csv'
 

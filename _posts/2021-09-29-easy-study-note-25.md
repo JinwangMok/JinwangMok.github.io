@@ -87,7 +87,7 @@ search: false
 
 여러분이 이전 수업에서 한 번 사용해 보셨던 Sequential 모델은 첫번째부터 끝까지의 레이어 리스트를 하나로 연결할 것입니다.  첫번째 레이어는 입력을 받고, 마지막 레이어는 출력을 만들죠. 아래의 코드는 위 그림과 같은 모델을 만듭니다.
 
-```
+```python
 from tensorflow import keras
 from tensorflow.keras import layers
 

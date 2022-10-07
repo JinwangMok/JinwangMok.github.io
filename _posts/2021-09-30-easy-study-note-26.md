@@ -98,7 +98,7 @@ search: false
 
 모델을 정의한 뒤에, 모델의 compile 메소드를 통해 손실 함수와 옵티마이저를 추가할 수 있습니다.
 
-```
+```python
 model.compile(
 	optimizer="adam",
     loss="mae",
@@ -127,7 +127,7 @@ model.compile(
 
 아래의 코드는 주목할 필요는 없지만 앞으로 실습에 필요한 준비 내용들을 담고 있습니다. 그래도 알아둬야 하는 것은 각각의 특징을 [0, 1] 로 조정했다는 것입니다. 이는 다섯번째 강의에서 다시 다루겠지만, 신경망은 입력이 공통적으로 이뤄질 때 가장 잘 작동하는  경향이 있습니다.
 
-```
+```python
 import pandas as pd
 from IPython.display import display
 
@@ -155,7 +155,7 @@ y_valid = df_valid['quality']
 
 이 신경망이 몇개의 입력 값을 가져야 할까요? 여러분은 이것을 데이터 행렬에 있는 열의 개수를 확인하므로써 알아낼 수 있습니다. 하지만, 타겟인 'quality'를 포함하지 않도록 주의하세요. 입력 특징들만 입니다!
 
-```
+```python
 print(X_train.shape)
 ```
 
@@ -165,7 +165,7 @@ print(X_train.shape)
 
 이번에는 1500개 이상의 뉴런으로 이루어진 3-레이어 신경망을 선택해보도록 하죠. 이 신경망은 데이터의 꽤 복잡한 관계들을 학습하기 충분할 것입니다.
 
-```
+```python
 from tensorflow import keras
 from tensorflow.keras import layers
 
@@ -183,7 +183,7 @@ model = keras.Sequential([
 
 모델을 정의한 후에 손실 함수와 옵티마이저로 컴파일합니다.
 
-```
+```python
 model.compile(
     optimizer='adam',
     loss='mae',
@@ -192,7 +192,7 @@ model.compile(
 
 이제 학습을 시작할 준비가 되었습니다! Keras에게 한 번(배치 크기)에 256열의 훈련 데이터를 옵티마이저에게 공급하고 이를 모든 데이터셋을 10라운드 동안(에폭) 진행하라고 합니다.
 
-```
+```python
 history = model.fit(
     X_train, y_train,
     validation_data=(X_valid, y_valid),
@@ -207,7 +207,7 @@ history = model.fit(
 
 종종 손실률을 보는 더 좋은 방법은 도표로 확인하는 것입니다. 사실 fit 메소드는 학습동안의 손실률을 History에 기록하고  있습니다. 여러분은 도표로 더 수월하게 나타내기 위해 이 데이터를 Pandas 데이터프레임으로 변환할 것입니다.
 
-```
+```python
 import pandas as pd
 
 # 학습 History를 데이터프레임으로 변환

@@ -49,7 +49,7 @@ search: false
 
 각 주택에 대한 예측 오차는 다음과 같습니다.
 
-```
+```python
 error = actual - predicted
 ```
 
@@ -68,7 +68,7 @@ error = actual - predicted
 
 평균 절대 오차(MAE)를 계산하기 위해서는 먼저 모델이 하나 필요합니다. 아래에는 해당 코드입니다.
 
-```
+```python
 # 여기에는 데이터를 불러오기 코드가 숨겨져있다고 가정
 import pandas as pd
 
@@ -99,7 +99,7 @@ melbourne_model.fix(X, y)
 
 일단 모델이 있으면, 아래와 같이 평균 절대 오차(MAE)를 계산합니다.
 
-```
+```python
 from sklearn.metrics import mean_absolute_error
 
 predicted_home_prices = melbourne_model.predict(X)
@@ -135,7 +135,7 @@ mean_absolute_error(y, predicted_home_prices)
 
 scikit-learn 라이브러리는 데이터를 두 조각으로 쪼개기 위한 train_test_split이라는 기능을 가지고 있습니다. 이렇게 쪼갠 데이터 중 하나는 학습 데이터로 모델을 학습할 때 사용하고, 다른 하나는 검증 데이터로 평균 절대  오차(mean_absolute_error)를 계산할 때 사용합니다. 
 
-```
+```python
 from sklearn.model_selection import train_test_split
 
 # 타겟과 특성에 해당하는 데이터를 각각 학습용과 검증 데이터로 나눕니다.

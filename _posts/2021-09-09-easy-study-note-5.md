@@ -97,7 +97,7 @@ Normal, Insert, Visual.
 
 부끄럽지만 내 .vimrc파일은 아래와 같다.
 
-```
+```bash
 " [vimrc 설정파일]
 "
 " <단축키>
@@ -464,7 +464,7 @@ filetype plugin indent on
 
 명령어는 일단 아래와 같다!
 
-```
+```bash
 :!g++ currentfilename.cpp
 :!./a.out
 ```

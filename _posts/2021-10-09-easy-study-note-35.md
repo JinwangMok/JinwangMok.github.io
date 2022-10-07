@@ -27,7 +27,7 @@ search: false
 
 데이터프레임이나 시리즈 안의 한 열에 대한 데이터 타입을 **dtype**이라고 합니다.
 
-```
+```python
 import pandas as pd
 reviews = pd.read_csv('../input/wine-reviews/winemag-data-130k-v2.csv', index_col=0)
 pd.set_option('max_rows', 5)
@@ -35,7 +35,7 @@ pd.set_option('max_rows', 5)
 
 특정한 열의 타입을 선택하려 할 때, **dtype** 속성을 사용할 수 있습니다. 예를 들어, 아래와 같이 reviews 데이터프레임 안에 있는 price 열의 dtype을 알아낼 수 있습니다.
 
-```
+```python
 reviews.price.dtype
 # dtype('float64')
 ```
@@ -44,7 +44,7 @@ reviews.price.dtype
 
 또, dtype 속성을 데이터프레임 자체에 적용하려면 **dtypes** 속성을 사용할 수 있습니다. 이 경우 데이터프레임의 모든 열의 dtype을 반환합니다.
 
-```
+```python
 reviews.dtypes
 ```
 
@@ -56,7 +56,7 @@ reviews.dtypes
 
 변환하는 것이 논리적 오류가 없다면, astype() 함수를 사용하면 한 열의 dtype을 다른 타입으로 변환하는 것도 가능합니다. 예를 들어, int64 데이터 타입으로 존재하는 points 열을 float64 데이터 타입으로 변환하는 것이 가능합니다.
 
-```
+```python
 reviews.points.astype('float64')
 ```
 
@@ -64,7 +64,7 @@ reviews.points.astype('float64')
 
 데이터프레임이나 시리즈의 인덱스 또한 dtype을 가지고 있습니다.
 
-```
+```python
 reviews.index.dtype
 # dtype('int64')
 ```
@@ -79,7 +79,7 @@ reviews.index.dtype
 
 Pandas는 결측 데이터에 특화된 몇가지 메소드를 제공합니다. NaN 항목을 선택하려면 pd.isnull()을 사용할 수 있습니다. (또는 그 짝인 pd.notnull()을 사용할 수 도 있겠지요.) 이것은 다음과 같이 사용하도록 되어 있습니다.
 
-```
+```python
 reviews[pd.isnull(reviews.country)]
 ```
 
@@ -89,7 +89,7 @@ reviews[pd.isnull(reviews.country)]
 
 결측값을 대체하는 것은 일반적인 작업입니다. Pandas는 이 문제에 대해 정말 손쉬운 메소드를 제공합니다. 바로,  fillna()입니다. fillna()는 이런 데이터를 줄이는 몇가지 다른 전략을 제공합니다. 예를 들어, 각 NaN을  "Unknown"으로 아래와 같이 간단히 바꿀 수 있습니다.
 
-```
+```python
 reviews.region_2.fillna("Unknown")
 ```
 
@@ -101,7 +101,7 @@ reviews.region_2.fillna("Unknown")
 
 아니면, 바꾸고자하는 null이 아닌 값을 가지고 있을 수 있겠죠. 예를 들어, 이 데이터셋이 만들어진 후에 리뷰어인 Kerin  O'Keefe가 그녀의 트위터 태그를 @kerinokeefe에서 @kerino로 바꿨다고 가정해봅시다. 이것을 데이터셋에 반영하는 한 가지 방법은 아래와 같이 replace() 메소드를 사용하는 것입니다.
 
-```
+```python
 reviews.taster_twitter_handle.replace("@kerinokeefe", "@kerino")
 ```
 

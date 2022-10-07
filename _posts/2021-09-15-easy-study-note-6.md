@@ -21,7 +21,7 @@ search: false
 
 먼저, 내 예제 코드는 다음과 같다.
 
-```
+```c++
 #include <iostream>
 
 using namespace std;
@@ -53,7 +53,7 @@ int main(){
 
 원래 이걸 컴파일 후 실행 하려면 vi의 기본모드에서
 
-```
+```bash
 :!g++ <filename> && ./a.out
 ```
 
@@ -63,14 +63,14 @@ int main(){
 
 
 
-```
+```bash
 app.out : classEx1.o
 	g++ -o app.out classEx1.o
 ```
 
 이걸 저장하고, 명령줄에
 
-```
+```bash
 make
 ```
 

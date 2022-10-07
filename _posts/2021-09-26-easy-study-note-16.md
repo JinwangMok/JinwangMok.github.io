@@ -44,7 +44,7 @@ search: false
 
 또한, 라이브러리를 쓰는 순서를 제 나름 정리해서 코드로 대충 나타내보자면 아래와 같습니다.
 
-```
+```python
 # 사용할 모델과 라이브러리 import
 import pandas as pd
 from sklearn.model_selection import train_test_split

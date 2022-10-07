@@ -29,7 +29,7 @@ search: false
 
 일단, 변수/열(columns)을 선택하기 위해서는 데이터셋의 모든 열 목록을 봐야합니다. 이 목록은 데이터프레임의 **columns** 속성으로 볼 수 있습니다.(아래 코드의 맨 아래줄)
 
-```
+```python
 import pandas as pd
 
 melbourne_file_path = '../input/melbourne-housing-snapshot/melb_data.csv'
@@ -69,7 +69,7 @@ melbourne_data = melbourne_data.dropna(axis=0)
 
 우리는 **예측 타겟**이라고 부르는 우리가 예측하길 원하는 열을 이 점 표기법으로 선택할 것입니다. 멜버른 데이터에서 주택 가격을 저장하는 코드는 아래와 같습니다. 관습적으로 예측 타겟은 y라고 합니다.
 
-```
+```python
 y = melbourne_data.Price
 ```
 
@@ -91,19 +91,19 @@ y = melbourne_data.Price
 
 아래에 예제가 있습니다.
 
-```
+```python
 melbourne_features = ['Rooms', 'Bathroom', 'Landsize', 'Lattitude', 'Longtitude']
 ```
 
 관습적으로 이것을 대문자 X라고 부릅니다.
 
-```
+```pyhton
 X = melbourne_data[melbourne_features]
 ```
 
 자, describe 메소드와 head 메소드로 우리가 주택 가격을 예측하는 데 사용할 데이터를 빠르게 살펴보죠! (head 메소드는 상단의 몇 행을 보여주는 메소드입니다.)
 
-```
+```python
 X.describe()
 X.head()
 ```
@@ -131,7 +131,7 @@ X.head()
 
 아래는 scikit-learn으로 의사결정트리 모델을 정의하고, 특성과 타겟 변수로 fitting하는 예제입니다.
 
-```
+```python
 from sklearn.tree import DecisionTreeRegressor
 
 # 모델 정의. 각 수행마다 동일한 결과를 보장하기 위해 random_state의 숫자를 지정.
@@ -151,7 +151,7 @@ melbourne_model.fit(X, y)
 
 실제로 당신은 우리가 이미 가격을 가지고 있는 주택보다 시장에 나오는 새 주택에 대해 예측하고 싶을 겁니다. 하지만 먼저, 예측 기능이 어떻게 작동하는가를 보기위해 학습 데이터의 첫 몇 줄에 대해 예측해볼 것입니다.
 
-```
+```python
 print("Making predictions for the following 5 houses :")
 print(X.head())
 print("The predictions are")

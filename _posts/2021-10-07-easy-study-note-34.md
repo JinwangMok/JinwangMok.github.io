@@ -79,7 +79,7 @@ search: false
 
 [전리층Ionosphere](https://archive.ics.uci.edu/ml/datasets/Ionosphere) 데이터셋은 지구 대기권의 전리층에 초점을 맞춘 레이더 신호로부터 얻은 특징features들을 포함합니다. 이것으로 해볼 것은 신호가 어떤 물체의 존재를 나타내는지 아니면 그냥 빈 공기를 나타내는지 결정하는 것입니다. 
 
-```
+```python
 import pandas as pd
 from IPython.display import display
 
@@ -110,7 +110,7 @@ y_valid = df_valid['Class']
 
 딱 하나만 제외하고는 회귀 작업에서 했던 것과 똑같이 모델을 정의할 것입니다. 바로, 마지막 레이어가 'sigmoid' 활성 함수를 포함하는 것만 제외하고 말이죠. 이를 통해 모델은 클래스의 확률을 만들 수 있게 됩니다.
 
-```
+```python
 from tensorflow import keras
 from tensorflow.keras import layers
 
@@ -125,7 +125,7 @@ model = keras.Sequential([
 
 교차  엔트로피 손실 함수와 정확도 지표metric를 compile 메소드로 모델에 추가합니다. 두 클래스 문제에서, 'binary'  버전을 사용한다는 것을 확실히 하세요.(더 많은 클래스를 가진 문제에서는 살짝 다를 것입니다.) Adam 옵티마이저는 분류  문제에서도 멋지게 동작하니, 그대로 둡시다.
 
-```
+```python
 model.compile(
     optimizer = 'adam'
     loss = 'binary_crossentropy',
@@ -137,7 +137,7 @@ model.compile(
 
 이 특별한 문제에서 모델은 꽤 조금의 에폭만으로 학습을 완료할 수 있습니다. 따라서, 편의를 위해 조기 정지early stopping 콜백 함수를 포함하겠습니다.
 
-```
+```python
 early_stopping = keras.callback.EarlyStopping(
     patience = 10,
     min_delta = 0.001,
@@ -160,7 +160,7 @@ history = model.fit(
 
 
 
-```
+```python
 history_df = pd.DataFrame(history.history)
 # 5번째 에폭부터 시작
 history_df.loc[5:, ['loss', 'val_loss']].plot()

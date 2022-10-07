@@ -15,7 +15,7 @@ search: false
 
 C++의 생성자는 객체가 생성되는 시점에 자동으로 호출되는 멤버 함수로 클래스 이름과 동일한 멤버 함수이다. 또, 함수 특유의 리턴 타입을 지정도 없다.(없을 뿐 아니라 void라도 있으면 안된다!)
 
-```
+```cpp
 class Circle{
     Circle();
     Circle(int radius);
@@ -52,7 +52,7 @@ Circle::Circle(int radius){
 
 아래의 예제 코드로 더 심화된 내용을 다뤄보겠다.
 
-```
+```cpp
 class Rectangle{
     int width, length; 
 public:
@@ -67,7 +67,7 @@ public:
 
 위 클래스의 생성자는 총 세가지다. 매개변수가 없는 경우, 한 가지인 경우, 두 가지인 경우. 이렇게 넘겨받은 매개변수의 값으로 인스턴스의 멤버 변수를 초기화하게 되는데, 먼저 각각의 경우별로 멤버 변수를 초기화하면 아래와 같다.
 
-```
+```cpp
 Rectangle::Rectangle(){ width = 10; length = 10; }
 Rectangle::Rectangle(int x) { width = x; length = x; }
 Rectangle::Rectangle(int w, int l) { width = w; length = l }
@@ -77,7 +77,7 @@ Rectangle::Rectangle(int w, int l) { width = w; length = l }
 
 또, 아래와 같이 초기화하는 것도 가능하다.
 
-```
+```cpp
 Rectangle::Rectangle() : width(10), length(10) {}
 Rectangle::Rectangle(int x) : width(x), length(x) {}
 Rectangle::Rectangle(int w, int l) : width(w), length(l) {}
@@ -103,7 +103,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON) # 필수는 아니고 권장
 
 위임 생성자는 타겟 생성자를 통해 생성자 작업을 대행하는 것을 의미한다. 말은 어려우니까 코드로 보면 간단하다.
 
-```
+```cpp
 Rectangle::Rectangle() : Rectangle(10) {} //위임 생성자
 Rectangle::Rectangle(int x) : Rectangle(x, x) {} //타겟 생성자이면서, 위임 생성자
 Rectangle::Rectangle(int w, int l) : width(w), length(l) {} //타겟 생성자
@@ -117,7 +117,7 @@ Rectangle::Rectangle(int w, int l) : width(w), length(l) {} //타겟 생성자
 
 생성자와 반대로 소멸자는 객체가 소멸될 때 자동으로 호출되는 함수다. 이 또한 마찬가지로 임의로 호출할 수 없으며, 클래스와 동일한 이름을 갖고 리턴타입을 지정할 수 없다. 다만, 차이점은 소멸자는 반드시 하나만 존재해야하고, 소멸자 앞에 틸트(~)가 붙는다.
 
-```
+```cpp
 class Rectangle{
     int width, length; 
 public:

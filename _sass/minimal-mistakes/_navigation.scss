@@ -489,6 +489,7 @@
 }
 
 .nav__sub-title {
+  color: #55772F;
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
@@ -496,7 +497,12 @@
   font-size: $type-size-6;
   font-weight: bold;
   text-transform: uppercase;
-  border-bottom: 1px solid $border-color;
+  // border-bottom: 1rem solid $border-color;
+  border-bottom: 0.15rem solid rgb(30, 30, 30);
+}
+
+.nav__sub-title:nth-child(1){
+  margin-top: 1.5rem;
 }
 
 /*

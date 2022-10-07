@@ -49,7 +49,7 @@ search: false
 
 Keras에서 드롭아웃 비율 인자인 **rate**는 입력 유닛의 몇 퍼센트를 버릴 것인지를 정의합니다. 아래와 같이 드롭아웃을 적용할 레이어 바로 뒤에 Dropout 레이어를 넣으세요.
 
-```
+```python
 keras.Sequential([
     # ...
     layers.Dropout(rate=0.3), # 다음 레이어로 가는 입력의 30%를 버립니다. drop out.
@@ -82,14 +82,14 @@ keras.Sequential([
 
 배치 정규화는 신경망의 거의 모든 지점point에서 사용될 수 있어 보입니다. 아래와 같이 레이어 뒤에 넣을 수도 있고..
 
-```
+```python
 layers.Dense(16, activation='relu'),
 layers.BatchNormalization(),
 ```
 
 또는, 아래와 같이 레이어와 그 레이어의 활성 함수 사이에도 넣을 수 있습니다.
 
-```
+```python
 layers.Dense(16),
 layers.BatchNormalization(),
 layers.Activation('relu')
@@ -103,7 +103,7 @@ layers.Activation('relu')
 
 Red Wine 모델을 계속 개발해봅시다. 이제 용량을 더 많이 늘릴 것이지만, 과적합을 제어하기 위해서 드롭아웃과 최적화 작업의  속도를 높이기 위해 배치 정규화를 추가할 것입니다. 이번에는 배치 정규화가 어떻게 학습을 안정화시킬 수 있는지를 증명하기 위해  데이터 표준화standardizing도 중단해보겠습니다.
 
-```
+```python
 # 플롯팅 설정
 import matplotlib.pyplot as plt
 
@@ -133,7 +133,7 @@ y_valid = df_valid['quality']
 
 드롭아웃을 추가할 때, 아마 Dense 레이어의 유닛 수를 증가시킬 필요가 있을 것입니다.(드롭아웃, 일부를 버릴꺼니까요.)
 
-```
+```python
 from tensorflow import keras
 from tensorflow.keras import layers
 
@@ -157,7 +157,7 @@ model = keras.Sequential([
 
 
 
-```
+```python
 model.compile(
     optimizer='adam',
     loss='mae',
