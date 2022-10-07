@@ -41,7 +41,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "mldl" %}
-                        <li><a href="/categories/mldl" class="">MLDL ({{category[1].size}})</a></li>
+                        <li><a href="/categories/mldl" class="">MachineLearning<br/>DeepLearning({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

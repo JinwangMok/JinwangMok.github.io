@@ -20,10 +20,10 @@ title                    : "난중일기"
 title_separator          : "|"
 subtitle                 : "문제는 잠시, 기록은 오래:)"
 name                     : "JinwangMok"
-description              : "신뢰가는 AI 연구원을 추구하는 목진왕의 학습 기록 블로그입니다."
+description              : "AI 연구원 목진왕의 학습 기록 블로그입니다."
 url                      : "https://jinwangmok.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : JinwangMok/JinwangMok.github.io# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : JinwangMok/JinwangMok.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.png" # 나중에 만들면 넣자..
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
