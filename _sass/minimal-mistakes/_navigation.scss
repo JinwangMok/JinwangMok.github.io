@@ -577,3 +577,12 @@
     padding-left: 3.25rem
   }
 }
+
+.nav__sub-title~ul>li{
+  margin-top: 0.5rem;
+  transition: all 0.3s linear;
+}
+
+.nav__sub-title~ul>li:hover{
+  color: #2f5377;
+}

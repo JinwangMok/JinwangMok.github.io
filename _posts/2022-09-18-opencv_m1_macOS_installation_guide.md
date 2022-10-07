@@ -10,7 +10,7 @@ sidebar:
 search: false
 ---
 
-# M1 맥북에서 Visual Studio Code로 OpenCV C++ 실행 환경 설정하기
+
 
 > 이 포스팅은 아래 포스팅을 참고하여 작성했습니다.
 >

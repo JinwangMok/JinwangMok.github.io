@@ -34,7 +34,7 @@ search: false
 
 ## 장기 시리즈
 
-- OpenCV, C++, Python 문법
+- OpenCV, C++, Python, Go, Rust 문법
 - 유체역학
 - 물리학
 - 미적분

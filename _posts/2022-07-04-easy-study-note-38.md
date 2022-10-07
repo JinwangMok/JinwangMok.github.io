@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "파이토치 \@ 연산"
+title: "파이토치 행렬곱 연산"
 categories: mldl
-tag: [@연산자, matmul, tensor@, torch@, 파이토치@, 파이토치 @연산, 행렬 원소별 곱 연산, 행렬곱 연산]
+tag: [matmul, tensor@, torch@, 파이토치@, 파이토치 @연산, 행렬 원소별 곱 연산, 행렬곱 연산]
 toc: true
 author_profile: false
 sidebar:
