@@ -1,8 +1,7 @@
 ---
 layout: single
-title: "test"
-categories: [cpp, python, papers, money, math, mldl, debug, books, blockchain, etc]
-tag: [blog, python, jekyll]
+title: ""
+categories: []
 toc: true
 author_profile: false
 sidebar:
@@ -10,9 +9,9 @@ sidebar:
 search: false
 ---
 
-
-
 # 주제들
+
+[cpp, python, go(or golang), papers, money, math, mldl, debug, books, blockchain, etc]
 
 ## 단행본
 
