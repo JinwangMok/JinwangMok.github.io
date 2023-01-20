@@ -20,12 +20,12 @@ title                    : "난중일기"
 title_separator          : "|"
 subtitle                 : "문제는 잠시, 기록은 오래:)"
 name                     : "JinwangMok"
-description              : "AI 연구원 목진왕의 학습 기록 블로그입니다."
+description              : "AI 연구자 목진왕의 학습 기록 블로그입니다."
 url                      : "https://jinwangmok.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : JinwangMok/JinwangMok.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.png" # 나중에 만들면 넣자..
+logo                     : "/assets/images/logo.png" 
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "목진왕"
   avatar           : "/assets/images/profile_small.jpg"
-  bio              : "사람을 돕는 인공지능을 연구합니다."
+  bio              : "그러나 배움에 왕도는 없다."
   location         : "South Korea🇰🇷"
   email            : 
   links:
@@ -298,5 +298,6 @@ defaults:
       show_date: true
       mathjax: true
       sidebar_main: true
+
 
 date_format: "%Y년 %m월 %d일"

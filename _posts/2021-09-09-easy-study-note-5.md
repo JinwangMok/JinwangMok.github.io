@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "MacOS에서 Vim 개발 환경 구축하기"
-categories: [vim, vimrc, vim설정, 맥OS vim, 컴공갬성]
-tag: [blog, python, jekyll]
+categories: etc
+tag: [vim, vimrc, vim설정, 맥OS vim, 컴공갬성]
 toc: true
 author_profile: false
 sidebar:

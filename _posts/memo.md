@@ -7,11 +7,18 @@ author_profile: false
 sidebar:
   nav: "docs"
 search: false
+typora-root-url: ../
 ---
 
 # 주제들
 
-[cpp, python, go(or golang), papers, money, math, mldl, debug, books, blockchain, etc]
+categories: [cpp, python, go, papers, money, math, mldl, debug, books, blockchain, etc] 중 택 1
+
+## 카테고리 추가시 해야할 일
+
+- `Blog/_includes/nav_list_main` 파일 수정
+- `Blog/_pages/categories` 에 md 파일 추가
+- 
 
 ## 단행본
 

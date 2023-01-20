@@ -8,4 +8,5 @@ author_profile: false
 sidebar:
   nav: "docs"
 search: false
+typora-root-url: ../
 ---
