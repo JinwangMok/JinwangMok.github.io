@@ -194,11 +194,12 @@
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 20;
+  margin-bottom: 1em;
   cursor: pointer;
 
   li:last-child {
     a {
-      margin-bottom: 3em;
+      margin-bottom: 0.5em;
     }
   }
 
