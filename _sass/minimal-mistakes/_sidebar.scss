@@ -78,11 +78,12 @@
     position: absolute;
     top: 0;
     right: 0;
+
     width: $right-sidebar-width-narrow;
     margin-right: -1 * $right-sidebar-width-narrow;
     padding-left: 1em;
     z-index: 10;
-
+    
     &.sticky {
       @include clearfix();
       position: -webkit-sticky;
@@ -197,7 +198,7 @@
 
   li:last-child {
     a {
-      margin-bottom: 0;
+      margin-bottom: 3em;
     }
   }
 
