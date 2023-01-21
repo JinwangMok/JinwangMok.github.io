@@ -4,10 +4,10 @@ title: "Pandas(3)"
 categories: mldl
 tag: [kaggle, pandas, pandas apply(), pandas map(), pandas 매핑, pandas 연산, pandas 요약 함수, 캐글, 캐글 pandas, 캐글 코스 번역]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

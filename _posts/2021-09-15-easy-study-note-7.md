@@ -4,10 +4,10 @@ title: "CMake 배우기"
 categories: etc
 tag: [C++ 개발환경, cmake, CMakeList.txt, MacOS C++, makefile, vimrc]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

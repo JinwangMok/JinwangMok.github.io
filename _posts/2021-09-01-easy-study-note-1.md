@@ -4,10 +4,10 @@ title: "메타버스란 무엇일까"
 categories: etc
 tag: [10대 유행, AR, VR, 가상세계, 가상현실, 거울세계, 메타버스, 제페토, 증강현실, 초등학생]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

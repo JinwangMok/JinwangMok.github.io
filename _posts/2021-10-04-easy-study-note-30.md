@@ -4,10 +4,10 @@ title: "C++ 시작하기"
 categories: cpp
 tag: [C++, C++ >>, C++ namespace, C++ std 네임스페이스, C++ using, C++ 기초, C++ 네임스페이스, C++ 문법, C++ 스트림, 프로그래밍 언어]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

@@ -4,10 +4,10 @@ title: "M1 맥북에서 Visual Studio Code로 OpenCV C++ 실행 환경 설정(�
 categories: cpp
 tag: [OpenCV 세팅, 맥북 opencv c++, c++ opencv]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 ---
 
 

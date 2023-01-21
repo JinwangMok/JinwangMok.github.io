@@ -4,10 +4,10 @@ title: "캐글(Kaggle) 시작하기"
 categories: mldl
 tag: [Kaggle, machine learning, 데이터사이언티스트, 딥러닝, 딥러닝입문, 머신러닝, 머신러닝입문, 캐글, 캐글입문, 파이썬]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

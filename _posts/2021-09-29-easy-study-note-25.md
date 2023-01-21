@@ -4,10 +4,10 @@ title: "Intro to Deep Learning(2)"
 categories: mldl
 tag: [Activation Function, deep learning, kaggle, layers, ReLU, 딥러닝, 딥러닝 레이어, 딥러닝 활성 함수, 정류 선형 유닛, 캐글]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

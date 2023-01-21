@@ -4,10 +4,10 @@ title: "Intro to Deep Learning(1)"
 categories: mldl
 tag: [Artificial Neural Network, deep learning, kaggle, neuron, 가중치, 뉴런, 딥러닝, 인공신경망, 캐글, 퍼셉트론]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

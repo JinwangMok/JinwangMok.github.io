@@ -4,10 +4,10 @@ title: "캐글(Kaggle) Notebook 실습(Exercise)하는 방법"
 categories: mldl
 tag: [Kaggle, Kaggle 입문, 캐글, 캐글 code, 캐글 Courses, 캐글 Exercise, 캐글 Notebook, 캐글 노트북, 캐글 실습, 캐글 입문]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

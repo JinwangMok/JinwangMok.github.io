@@ -4,11 +4,10 @@ title: "Intro to Machine Learning(6)"
 categories: mldl
 tag: [Kaggle, Kaggle Courses, Machine Learning, Random Forest, 기계학습, 머신러닝, 머신러닝기초, 인공지능, 인공지능기초, 캐글]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
-
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 ---
 
 ## 랜덤 포레스트(Random Forests)

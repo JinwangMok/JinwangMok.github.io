@@ -4,9 +4,10 @@ title: ""
 categories: 
 tag: []
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
 typora-root-url: ../
+published: false
+
 ---

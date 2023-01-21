@@ -4,10 +4,10 @@ title: "제페토 빌드잇(build_it) 설치 및 시작하기"
 categories: etc
 tag: [ZEPETO, ZEPETO build_it, ZEPETO map, ZEPETO Studio, 빌드잇, 제페토, 제페토 맵, 제페토 맵만들기, 제페토 빌드잇, 제페토 스튜디오]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

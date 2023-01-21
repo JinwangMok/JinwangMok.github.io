@@ -4,10 +4,10 @@ title: "Pandas(1)"
 categories: mldl
 tag: [Artificial Intelligence, Data Analysis, Kaggle, Machine Learning, pandas, pandas csv, pandas 데이터프레임, pandas 시리즈, 데이터분석, 캐글]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

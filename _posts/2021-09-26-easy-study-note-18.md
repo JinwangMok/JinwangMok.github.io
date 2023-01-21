@@ -4,10 +4,10 @@ title: "Pandas(2)"
 categories: mldl
 tag: [Data Analysis, Kaggle, pandas, pandas 데이터프레임, pandas 선택, pandas 시리즈, pandas 인덱싱, pandas 조건 인덱싱, 데이터분석, 캐글]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

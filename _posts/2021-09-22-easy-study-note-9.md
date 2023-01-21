@@ -4,10 +4,10 @@ title: "Intro to Machine Learning(1)"
 categories: mldl
 tag: [decision tree, kaggle courses, Machine Learning, 기계학습, 머신러닝, 머신러닝기초, 의사결정트리, 인공지능, 인공지능기초, 캐글]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

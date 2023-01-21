@@ -4,10 +4,10 @@ title: "Intro to Deep Learning(3)"
 categories: mldl
 tag: [kaggle, optimizer, SGD, stochastic gradient descent, 미니 배치, 손실함수, 에폭, 옵티마이저, 캐글, 확률적 경사 하강법]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

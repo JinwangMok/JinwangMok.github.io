@@ -4,10 +4,10 @@ title: "C++ 접근 지정자"
 categories: cpp
 tag: [C++, C++ private, C++ protected, C++ public, C++ 접근지정자, C++ 캡슐화]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

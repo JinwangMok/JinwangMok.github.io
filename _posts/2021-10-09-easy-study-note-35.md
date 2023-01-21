@@ -4,10 +4,10 @@ title: "Pandas(5)"
 categories: mldl
 tag: [kaggle, kaggle courses, pandas, pandas dtype, pandas fillna(), pandas replace(), 캐글, 캐글 강의, 캐글 코스 번역]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

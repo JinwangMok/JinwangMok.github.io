@@ -4,10 +4,10 @@ title: "Intro to Machine Learning(5)"
 categories: mldl
 tag: [Artificial Intelligence, Kaggle, Kaggle Courses, Machine Learning, Overfitting Underfitting, 과적합, 과소적합, 기계학습, 머신러닝, 인공지능, 캐글]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

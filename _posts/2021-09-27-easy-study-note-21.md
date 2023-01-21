@@ -4,10 +4,10 @@ title: "알고리즘이란"
 categories: etc
 tag: [Algorithm, 알고리듬, 알고리즘, 코딩 기초, 코딩 시작, 코딩 입문, 프로그래밍 기초, 프로그래밍 입문]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

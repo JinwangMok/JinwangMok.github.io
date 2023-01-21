@@ -4,10 +4,10 @@ title: "Intro to Deep Learning(6)"
 categories: mldl
 tag: [binary classification, cross-entropy, kaggle, keras, sigmoid, 딥러닝, 시그모이드, 캐글, 캐글 딥러닝, 캐글 코스 번역]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

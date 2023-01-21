@@ -4,11 +4,10 @@ title: "엘레베이터 순서도"
 categories: etc
 tag: [flowchart, 순서도, 순서도 예시, 알고리즘, 엘레베이터 순서도, 엘레베이터 알고리즘, 엘레베이터 플로우차트, 컴공과제, 플로우차트]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
-
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 ---
 
 1주차의 과제는 엘레베이터의 알고리즘을 순서도로 표현하는 것이었다.

@@ -4,10 +4,10 @@ title: "맥북에서 이모지 연속으로 사용하기‼️(Big Sur)"
 categories: etc
 tag: [맥OS 이모지, 맥북 이모지, 맥북 이모티콘, 빅서 이모지, 이모지 연속, 이모지 연속사용, 이모티콘 연속 사용]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

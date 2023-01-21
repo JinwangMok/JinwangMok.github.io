@@ -4,10 +4,10 @@ title: "컴퓨터 시스템의 구조"
 categories: etc
 tag: [kocw, operating system, os, 운영체제, 컴퓨터기초]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

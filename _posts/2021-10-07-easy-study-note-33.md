@@ -4,10 +4,10 @@ title: "Intro to Deep Learning(5)"
 categories: mldl
 tag: [batch normalization, dropout, kaggle, 드롭아웃, 딥러닝, 딥러닝 모델 최적화, 배치정규화, 캐글, 캐글 딥러닝, 캐글 코스 번역]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

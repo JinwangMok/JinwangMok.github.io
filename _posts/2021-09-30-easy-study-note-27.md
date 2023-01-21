@@ -4,10 +4,10 @@ title: "Intro to Deep Learning(4)"
 categories: mldl
 tag: [Deep learning overfitting, Deep learning underfitting, Early Stopping, Kaggle, learning curve, 딥러닝 Capacity, 딥러닝 과소적합, 딥러닝 과적합, 캐글, 캐글 코스 번역]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

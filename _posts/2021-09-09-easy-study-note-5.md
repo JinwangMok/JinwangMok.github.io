@@ -4,10 +4,10 @@ title: "MacOS에서 Vim 개발 환경 구축하기"
 categories: etc
 tag: [vim, vimrc, vim설정, 맥OS vim, 컴공갬성]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

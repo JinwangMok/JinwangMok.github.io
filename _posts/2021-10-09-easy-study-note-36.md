@@ -4,10 +4,10 @@ title: "Pandas(6)"
 categories: mldl
 tag: [kaggle, pandas, pandas concat(), pandas join(), pandas rename(), pandas rename_axis(), 캐글, 캐글 강의 번역, 캐글 코스 번역]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

@@ -4,11 +4,10 @@ title: "C++이란?"
 categories: cpp
 tag: [C++, cpp, C++개요, C++이란, C++정의, C++특징, 객체지향]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
-
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 ---
 
 지난 학기에 배운 C도 아직 정리해서 올리지 않았지만, 그 확장판이라고 볼 수 있는 C++을 이번 학기에 수강하기에.. 여튼 시작해보겠습니다.😆

@@ -4,10 +4,10 @@ title: "C++ 생성자/소멸자"
 categories: cpp
 tag: [C++, C++ 11, C++ 생성자, C++ 소멸자, C++ 위임 생성자]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

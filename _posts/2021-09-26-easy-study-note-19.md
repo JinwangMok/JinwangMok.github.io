@@ -4,10 +4,10 @@ title: "데이터 사이언티스트를 위한 핵심 기술들_캐글(Kaggle) D
 categories: mldl
 tag: [AI, Kaggle, 데이터과학분야 진로, 데이터과학분야 로드맵, 데이터 사이언티스트 로드맵, 머신러닝, 인공지능, 캐글, 캐글 disscussion]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

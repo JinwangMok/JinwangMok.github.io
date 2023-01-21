@@ -4,10 +4,10 @@ title: "캐글(Kaggle) 등급 알아보기"
 categories: mldl
 tag: [contributor, expert, grandmaster, master, novice, 캐글, 캐글등급, 캐글랭킹, 캐글레벨]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 

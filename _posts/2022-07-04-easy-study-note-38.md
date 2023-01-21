@@ -4,11 +4,10 @@ title: "파이토치 행렬곱 연산"
 categories: mldl
 tag: [matmul, tensor@, torch@, 파이토치@, 파이토치 @연산, 행렬 원소별 곱 연산, 행렬곱 연산]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
-
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 ---
 
 파이토치에는 @ 연산이 있다. 가령 아래와 같이 사용될 수 있다.

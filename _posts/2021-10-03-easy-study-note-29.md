@@ -4,10 +4,10 @@ title: "Pandas(4)"
 categories: mldl
 tag: [kaggle, pandas, pandas groupby(), pandas multi-index, pandas sort, pandas 그룹, pandas 정렬, 캐글, 캐글 pandas, 캐글 코스 번역]
 toc: true
-author_profile: false
-sidebar:
-  nav: "docs"
-search: false
+toc_sticky: true
+author_profile: true
+search: true
+typora-root-url: ../
 
 ---
 
