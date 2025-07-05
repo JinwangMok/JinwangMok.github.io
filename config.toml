@@ -1,5 +1,5 @@
 # The URL the site will be built for
-title = "PassOverFlow"
+title = "JinwangMok"
 base_url = "https:/jinwangmok.github.io"
 description = "Effort to fill with Code & Love."
 theme = "duckquill"
@@ -44,4 +44,7 @@ socials = [
 
 [extra.nav]
 show_feed = true
-links = [{ url = "@/blog/_index.md", name = "Blog" }]
+links = [
+  { url = "@/blog/_index.md", name = "Blog" },
+  { url = "@/about/_index.md", name = "About" },
+]
