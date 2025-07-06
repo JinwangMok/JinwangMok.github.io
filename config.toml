@@ -1,6 +1,6 @@
 # The URL the site will be built for
 title = "JinwangMok"
-base_url = "https:/jinwangmok.github.io"
+base_url = "https:/jinwang.me"
 description = "Effort to fill with Code & Love."
 theme = "duckquill"
 author = "Jinwang Mok"
