@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://jinwang.me/</loc>
+    </url>
+    <url>
+        <loc>https://jinwang.me/about/</loc>
+    </url>
+    <url>
+        <loc>https://jinwang.me/blog/</loc>
+    </url>
+    <url>
+        <loc>https://jinwang.me/blog/first-test-article/</loc>
+        <lastmod>2025-07-06</lastmod>
+    </url>
+    <url>
+        <loc>https://jinwang.me/blog/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://jinwang.me/tags/</loc>
+    </url>
+    <url>
+        <loc>https://jinwang.me/test/</loc>
+    </url>
+</urlset>
